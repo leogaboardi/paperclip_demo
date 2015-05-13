@@ -8,6 +8,7 @@ gem 'jquery-rails'
 gem 'paperclip'
 gem 'pg'
 gem 'sass-rails'
+gem 'tzinfo-data'
 gem 'uglifier'
 
 group :development, :test do
