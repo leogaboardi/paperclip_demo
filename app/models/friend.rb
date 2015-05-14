@@ -13,6 +13,6 @@ class Friend < ActiveRecord::Base
       },
     :storage => :s3,
     :bucket => 'mppbay',
-    :s3_credentials => "#{Rails.root}/config/aws.yml",
+
     :path => "resources/:id/:style/:basename.:extension
 end
