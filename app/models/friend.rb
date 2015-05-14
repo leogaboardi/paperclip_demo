@@ -6,7 +6,7 @@ class Friend < ActiveRecord::Base
 
   has_attached_file
     :avatar,
-    styles: {
+    :styles => {
       thumb: '100x100>',
       square: '200x200#',
       medium: '300x300>'
