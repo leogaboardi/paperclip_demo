@@ -12,7 +12,7 @@ class Friend < ActiveRecord::Base
       medium: '300x300>'
       },
     :storage => :s3,
-    :bucket => 'mppbay',
-
+    :bucket => 'hohohohoho',
+    :s3_credentials => "#{Rails.root}/config/aws.yml",
     :path => "resources/:id/:style/:basename.:extension"
 end

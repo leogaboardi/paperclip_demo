@@ -1,0 +1,9 @@
+development:
+  access_key_id: "xxxxxinquote"
+  secret_access_key: "yyyyyinquote"
+test:
+  access_key_id: abc...
+  secret_access_key: abc...
+production:
+  access_key_id: "xxx"
+  secret_access_key: "yyyy"
