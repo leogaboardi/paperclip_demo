@@ -14,5 +14,5 @@ class Friend < ActiveRecord::Base
     :storage => :s3,
     :bucket => 'mppbay',
 
-    :path => "resources/:id/:style/:basename.:extension
+    :path => "resources/:id/:style/:basename.:extension"
 end
